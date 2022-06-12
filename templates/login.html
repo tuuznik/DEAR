@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DEAR | Drink & Eat Affordably Ranking</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/buttons.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/forms.css') }}">
+    </head>
+    <body>
+        <main>
+            <div class="box">
+                <form id="form_login">
+                    <h1 style="margin-bottom: 5px; margin-top: 15px;"">Sign in</h1>
+                    <h3 style="margin-bottom: 70px;">Provide your credentials</h3>
+                    <label for="uname"> Username:</label><br>
+                    <input type="text" id="uname" name="uname"><br>
+                    <label for="password">Password:</label><br>
+                    <input type="text" id="password" name="password">
+                </form>
+                <br>
+                <button class="button" type="submit" form="form_login" value="Submit">Submit</button>
+            </div> 
+        </main>
+    </body>
+</html>

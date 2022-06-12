@@ -1,8 +1,10 @@
 .button {
     display: inline-block;
     padding: 0.75rem 1.25rem;
+    border: none;
     border-radius: 10rem;
     color: #fff;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
     letter-spacing: 0.15rem;
     transition: all 0.3s;
