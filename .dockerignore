@@ -1,0 +1,9 @@
+# Environment
+venv/
+
+# Bytecode
+__pycache__
+
+# Git files
+.git
+.gitignore

@@ -1,0 +1,5 @@
+# Environment
+venv/
+
+# Bytecode
+__pycache__/
