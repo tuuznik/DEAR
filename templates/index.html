@@ -3,11 +3,20 @@
     <head>
         <title>DEAR | Drink & Eat Affordably Ranking</title>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/buttons.css') }}">
     </head>
     <body>
         <main>
-            <h1>Welcome to DEAR!</h1>
-            <h3>Drink & Eat Affordably Ranking</h3>
+            <div class="box">
+                <h3 style="margin-bottom: 5px;">Welcome to </h3>
+                <h1 style="margin-bottom: 5px; margin-top: 15px;"">DEAR</h1>
+                <h3 style="margin-bottom: 70px;">Drink & Eat Affordably Ranking</h3>
+                <div class="container">                
+                    <a href="#" class="button">Sign in</a><br>
+                    <p style="color:  #8a6c70;">Don't you have an account yet? Sing Up</p>
+                    <a href="#" class="button">Sign up</a>
+                </div> 
+            </div> 
         </main>
     </body>
 </html>
