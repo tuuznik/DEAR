@@ -1,6 +1,6 @@
 input[type=text] {
     width: 100%;
-    padding: 12px 20px;
+    padding: 12px 0px;
     margin: 8px 0;
     box-sizing: border-box;
     border-radius: 10rem;
@@ -9,4 +9,22 @@ input[type=text] {
 
   label {
 	color: #4e3e40;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 12px 0px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10rem;
+  border-color: rgb(230, 196, 184);
+}
+
+label {
+  color: #4e3e40;
+}
+
+
+error_msg {
+  color: #4e3e40;
 }

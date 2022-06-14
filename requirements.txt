@@ -1,2 +1,10 @@
+email-validator==1.2.1
 Flask==2.1.2
+Flask-Login==0.6.1
+Flask-SQLAlchemy==2.5.1
+Flask-WTF==1.0.1
 gunicorn==20.1.0
+psycopg2==2.9.3
+SQLAlchemy==1.4.37
+Werkzeug==2.1.2
+WTForms==3.0.1
